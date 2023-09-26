@@ -12,51 +12,10 @@ var hour3 = document.getElementById("hour-3");
 var hour4 = document.getElementById("hour-4");
 var hour5 = document.getElementById("hour-5");
 
-//var h9description = document.querySelector(".h9description");
-//localStorage.setItem("server", input.val());
-
-//var storedValue = localStorage.getItem("h9description");
-//var saveTextInput = h9
-
-//localStorage.setItem("h9", saveTextInput);
-
-//var h9 = localStorage.getItem("h9");
-
-//ar h9 = $(".hour-9");
-//h9.text("saveTextInput");
-
-//function getItem("h9");
-       // return Value;
-
-
-//<div id="hour-9" class="row time-block past">
-  //      <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
-    //    <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-      //  <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-        //  <i class="fas fa-save" aria-hidden="true"></i>
-        //<button>
-      //</div>
-
-
-//$(".saveBtn").click(function (event) {
-  //event.preventDefault();
-  //var description2 = $(this).siblings(".description2").val();
-  //localStorage.setItem("textStorage2", description2.value);
-  //(localStorage.getItem("textStorage2"));
-//});
-
       var btn = document.querySelector('.btn')
      document.querySelector(".btn").addEventListener("click", function() {
         console.log("Hey!  You clicked the button!", localStorage);
       });
-
-      //let btn10 = document.getElementById("btn-10");
-      //btn10.addEventListener("click", function (event) {
-       // const description = document.querySelector("#description10");
-        //localStorage.setItem("textStorage10", description.value);
-       // console.log(localStorage.getItem("textStorage10"));
-      //});
-
 
        var btn1 = document.querySelector('.btn1')
        document.querySelector(".btn1").addEventListener("click", function() {
@@ -97,31 +56,6 @@ var hour5 = document.getElementById("hour-5");
        document.querySelector(".btn9").addEventListener("click", function() {
          console.log("Hey!  You clicked the button!");
        });
-
-//var btn = function() {
-  //text("saveTextInput" localStorage);
-//}
-
-     // var  = document.querySelector(".saveBtn");
-
-//saveBtn.addEventListener("click", function() {
-
-//console.log*("saveBtn")
-
-//h9.addEventListener("click", function() {
-  //localStorage.setItem("text", text);
-
-//var saveBtn9amEl = document.querySelector('#save-btn-9am')
-//hour9El.addEventListener("click", e => {
-  //console.log("Hour9")
-//})
-//saveBtn9amEl.addEventListener('click', (event) => {
-  //event.preventDefault()
-  //hour9El = document.querySelector('#hour-9 > textarea')
- // localStorage.setItem('hour9am', hour9El.value)
-  //hour9El.textContent = localStorage.getItem('hour9am');
-//})
-
 
 $(function () {
  
