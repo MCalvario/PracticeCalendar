@@ -1,6 +1,7 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+
 var h9 = document.getElementById(".hour-9");
 var h10 = document.getElementById("hour-10");
 var h11 = document.getElementById("hour-11");
@@ -11,13 +12,10 @@ var hour3 = document.getElementById("hour-3");
 var hour4 = document.getElementById("hour-4");
 var hour5 = document.getElementById("hour-5");
 
-var h9description = document.querySelector(".h9description");
+//var h9description = document.querySelector(".h9description");
 //localStorage.setItem("server", input.val());
 
-var storedValue = localStorage.getItem("h9description");
-
-
-
+//var storedValue = localStorage.getItem("h9description");
 //var saveTextInput = h9
 
 //localStorage.setItem("h9", saveTextInput);
@@ -40,65 +38,69 @@ var storedValue = localStorage.getItem("h9description");
       //</div>
 
 
-$(".saveBtn").click(function (event) {
-  event.preventDefault();
-  var description2 = $(this).siblings(".description2").val();
-  localStorage.setItem("textStorage2", description2.value);
-  (localStorage.getItem("textStorage2"));
-});
+//$(".saveBtn").click(function (event) {
+  //event.preventDefault();
+  //var description2 = $(this).siblings(".description2").val();
+  //localStorage.setItem("textStorage2", description2.value);
+  //(localStorage.getItem("textStorage2"));
+//});
 
-      //var btn = document.querySelector('.btn')
-     //document.querySelector(".btn").addEventListener("click", function() {
-       // console.log("Hey!  You clicked the button!", localStorage);
+      var btn = document.querySelector('.btn')
+     document.querySelector(".btn").addEventListener("click", function() {
+        console.log("Hey!  You clicked the button!", localStorage);
+      });
+
+      //let btn10 = document.getElementById("btn-10");
+      //btn10.addEventListener("click", function (event) {
+       // const description = document.querySelector("#description10");
+        //localStorage.setItem("textStorage10", description.value);
+       // console.log(localStorage.getItem("textStorage10"));
       //});
 
 
-      // var btn1 = document.querySelector('.btn1')
-      // document.querySelector(".btn1").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn1 = document.querySelector('.btn1')
+       document.querySelector(".btn1").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
-      // var btn2 = document.querySelector('.btn2')
-      // document.querySelector(".btn2").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn2 = document.querySelector('.btn2')
+       document.querySelector(".btn2").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
-      // var btn3 = document.querySelector('.btn3')
-      // document.querySelector(".btn3").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn3 = document.querySelector('.btn3')
+       document.querySelector(".btn3").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
-      // var btn4 = document.querySelector('.btn4')
-      // document.querySelector(".btn4").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn4 = document.querySelector('.btn4')
+       document.querySelector(".btn4").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
-      // var btn5 = document.querySelector('.btn5')
-      // document.querySelector(".btn5").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn5 = document.querySelector('.btn5')
+       document.querySelector(".btn5").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
-      // var btn7 = document.querySelector('.btn7')
-      // document.querySelector(".btn7").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn7 = document.querySelector('.btn7')
+       document.querySelector(".btn7").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
-      // var btn8 = document.querySelector('.btn8')
-      // document.querySelector(".btn8").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn8 = document.querySelector('.btn8')
+       document.querySelector(".btn8").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
-      // var btn9 = document.querySelector('.btn9')
-      // document.querySelector(".btn9").addEventListener("click", function() {
-      //   console.log("Hey!  You clicked the button!");
-      // });
+       var btn9 = document.querySelector('.btn9')
+       document.querySelector(".btn9").addEventListener("click", function() {
+         console.log("Hey!  You clicked the button!");
+       });
 
 //var btn = function() {
- // text("saveTextInput" localStorage);
+  //text("saveTextInput" localStorage);
 //}
-
-
-
 
      // var  = document.querySelector(".saveBtn");
 
@@ -106,14 +108,8 @@ $(".saveBtn").click(function (event) {
 
 //console.log*("saveBtn")
 
-
-
 //h9.addEventListener("click", function() {
   //localStorage.setItem("text", text);
-
-
-
-
 
 //var saveBtn9amEl = document.querySelector('#save-btn-9am')
 //hour9El.addEventListener("click", e => {
@@ -153,17 +149,3 @@ $(function () {
 var today = dayjs();
     $('#currentDay').text(today.format('dddd, MMM D, YYYY'));
 });
-
-
-//function renderLastRegistered() {
-  //var h9text = localStorage.getItem("h9text"); 
-
- //textArea.textContent = h9text;
-//}
-
-//localStorage.setItem("h9text", h9text);
-
-//var h9text = h9textInput.value;
-
-//localStorage.setItem("h9text", h9text);
-//renderLastRegistered();
